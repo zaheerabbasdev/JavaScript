@@ -1,15 +1,15 @@
-Identifier Rules
+// Identifier Rules
 
-All JavaScript variables must be identified with unique names (identifiers).
+// All JavaScript variables must be identified with unique names (identifiers).
 
-• Names can contain letters, digits, underscores, and dollar signs. (no space)
+// • Names can contain letters, digits, underscores, and dollar signs. (no space)
 
-• Names must begin with a letter.
-Names can also begin with S and _.
+// • Names must begin with a letter.
+// Names can also begin with S and _.
 
-• Names are case sensitive (y and Y are different variables).
+// • Names are case sensitive (y and Y are different variables).
 
-• Reserved words (like JavaScript keywords) CANNOT be used as names.
+// • Reserved words (like JavaScript keywords) CANNOT be used as names.
 
 
 camelCase
