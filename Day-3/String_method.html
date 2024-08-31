@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <script>
+    // Trim Method
+    let name = "    zaheer    ";
+    name.trim();
+   
+
+
+   // Another example
+
+//    let password = prompt("Please enter your password");
+//    password.trim();
+
+
+
+   // UpperCase and LowerCase Method
+
+   let person_name = "Zaheer abbas";
+   console.log(person_name.toUpperCase());
+   console.log(person_name.toLowerCase());
+    
+
+
+    // String method with Arguments
+
+    // (1) IndexOf method
+
+    // Returns the first index of occurrence of some value in string. Or gives -1 if not found.
+
+    let message = "Ilovecoding";
+    message.indexOf();
+    message.indexOf("love")
+    1
+
+
+
+    // Method Chaining
+    //Using one method after another. Order of execution will be left to right.
+
+    let msg = "    zaheer    ";
+    let newMsg = msg.trim();
+    console.log(newMsg);
+
+    newMsg = newMsg.toUpperCase();
+     console.log(newMsg);
+
+
+
+     // slice
+     // Returns a part of the original string as a new string.
+
+     let father_name = "Abbas";
+     console.log(father_name.slice(0, 4));
+      console.log(father_name.slice(0));
+
+
+      // replace Method
+      //Searches a value in the string & returns a new string with the value replaced.
+
+      let str = "ILoveCoding";
+      let newStr = str.replace("Love", "do");
+      console.log(newStr);
+
+      // Repeat Method
+      //Returns a string with the number of copies of a string
+
+      let str1 = "ILoveCoding";
+      let newStr1 = str1.repeat(2);
+      console.log(newStr1);
+
+      // Exercise-1
+
+      // Question-1
+      // For the Give String :
+    // let msg = "help!";
+     //  Trim it & convert it to uppercase.
+
+
+     let msg1 = "help!";
+     let newMsg2 = msg1.trim().toUpperCase();
+     console.log(newMsg2);
+
+
+     // Question-2
+     // For the String -> let name = "ApnaCoIlege", predict the output for following :
+     // name.sIice(4, 9)
+     // name.index0f("na")
+     // name.replace("Apna","Our")
+
+
+     let name2 = "ApnaCoIlege";
+     console.log(name2.slice(4, 9));
+     console.log(name2.indexOf("na"));
+     console.log(name2.replace("Apna", "Our"));
+
+
+
+
+
+     // Question-2
+     // Separate the "College" part in above string & replace 'I' with 't' in it.
+
+     let name4 = "ApnaCoIlege";
+     console.log(name4.replace("I", "t"));
+
+
+
+     
+
+
+
+    </script>
+</body>
+</html>
