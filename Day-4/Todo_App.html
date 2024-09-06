@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <h1>Todo App</h1>
+    <h3>Enter "List" to show tasks</h3>
+    <h3>Enter "Add" to add tasks</h3>
+    <h3>Enter "delete" to delete tasks</h3>
+    <h3>Enter "quit" to quit the todo</h3>
+
+    <script>
+      let todo = [];
+
+      let request = prompt("Please enter your request");
+
+      while (true) {
+        if (request == "quit") {
+          console.log("Quitting the Todo App");
+          break;
+        }
+
+
+        if (request == "list") {
+
+          console.log("---------------");
+          for (let i = 0; i < todo.length; i++) {
+            console.log(i, todo[i]);
+          }
+          console.log("---------------");
+
+
+        } else if (request == "add") {
+          let task = prompt("please enter the task you want to add");
+          todo.push(task);
+          console.log("Task added");
+
+
+        } else if (request == "delete") {
+          let index = prompt("Please enter the task you want to delete");
+          todo.splice(index, 1);
+          console.log("Task Deleted");
+
+
+        } else {
+          console.log("Wrong request");
+        }
+
+
+        request = prompt("Please enter your request");
+      }
+    </script>
+  </body>
+</html>

@@ -45,7 +45,7 @@
       // let months =["january", "july", "march", "august"]
       // requried ["july", "june", "march", august]
 
-      let months = ["january", "july", "march", "august"];
+      // let months = ["january", "july", "march", "august"];
 
       //  let newMonths = months.shift();
       //  console.log(newMonths);
@@ -62,52 +62,78 @@
       //  console.log(newMonths3);
       //  console.log(months);
 
-    //   months.shift();
-    //   console.log(months);
-    //   months.shift();
-    //   console.log(months);
-    //   months.unshift("june");
-    //   console.log(months);
-    //   months.unshift("july");
-    //   console.log(months);
-
-
-
+      //   months.shift();
+      //   console.log(months);
+      //   months.shift();
+      //   console.log(months);
+      //   months.unshift("june");
+      //   console.log(months);
+      //   months.unshift("july");
+      //   console.log(months);
 
       // Concatenation Method
 
+      //   let primary = ["red", "yellow", "blue"];
 
-    //   let primary = ["red", "yellow", "blue"];
+      //   let secondary = ["orange", "green", "violet"];
 
-    //   let secondary = ["orange", "green", "violet"];
-      
-    //   let allColors = primary.concat(secondary); 
-    //   console.log(allColors);
+      //   let allColors = primary.concat(secondary);
+      //   console.log(allColors);
 
-
-
-    //   let allColors1 = secondary.concat(primary);
-    //   console.log(allColors1);
-
-
+      //   let allColors1 = secondary.concat(primary);
+      //   console.log(allColors1);
 
       // Reverse Method
-    //    let primaryColor = ["red", "yellow", "blue"];
-    //    console.log(primaryColor.reverse());
+      //    let primaryColor = ["red", "yellow", "blue"];
+      //    console.log(primaryColor.reverse());
+
+      // Slice Method of Array is same as the Slice Method of String
+      //  let colors = ["red", "yellow", "blue", "orange", "green"]
+
+      //  let newColors = colors.slice(2);
+      //  console.log(newColors);
+
+      // Splice Method
+
+      // : removes / replaces / add elements in place.
+      //   splice( start, deleteCount, itemO...itemN)
+
+      //  let color_1 = ["red", "yellow", "blue", "orange", "green"];
+      //  let newColor = color_1.splice(1);
+      //  console.log(newColor);
+
+      // Sort Method
+
+      // let days  = ["Monday", "Friday", "Sunday", "Wednesday", "Tuesday", "Thrusday", "Saturday"];
+      // let Sortdays = days.sort();
+      // console.log(Sortdays);
+
+      // Exercise-3
+      // Question-1
+      // Using Splice For the given start state of an array, change it to final form using methods.
+      // let months =["january", "july", "march", "august"]
+      // requried ["july", "june", "march", august]
+
+      //  let months =["january", "july", "march", "august"];
+
+      //  let newMonths = months.splice(0, 2, "july", "june");
+
+      //  console.log(newMonths);
+      //  console.log(months);
+
+      // Array References
+
+      let arr = ["a", "b", "c"];
+      
+      let arrCopy = arr;
+
+      console.log(arr);
+      console.log(arrCopy);
 
 
-
-
-       // Slice Method of Array is same as the Slice Method of String
-       let colors = ["red", "yellow", "blue", "orange", "green"]
-
-       let newColors = colors.slice(2);
-       console.log(newColors);
-
-       
-
-
-
+      arrCopy.push('d');
+      console.log(arrCopy);
+      console.log(arr);
     </script>
   </body>
 </html>
