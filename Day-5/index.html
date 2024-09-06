@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Functions in JS</title>
+  </head>
+  <body>
+    <script>
+      // Functions
+
+      function PrintName() {
+        console.log("Zaheer abbas");
+      }
+
+      PrintName();
+
+      // Define a function
+      function PrintNumber() {
+        for (let i = 1; i <= 8; i++) {
+          console.log(i);
+        }
+      }
+
+      PrintNumber(); // calling function
+
+      function isAdult() {
+        let age = 20;
+        if (age >= 20) {
+          console.log("Eligiable");
+        } else {
+          console.log("You are not eligiable");
+        }
+      }
+
+      isAdult();
+
+      // Functions with Arguments
+
+      function PrintAge(age) {
+        console.log(age);
+      }
+
+      PrintAge(50);
+
+      function PrintName1(name) {
+        console.log(name);
+      }
+
+      PrintName1("Zaheer abbas");
+
+      // Find Average
+
+      function Average() {
+        let a = 2;
+        let b = 4;
+        let c = 6;
+
+        let average = (a + b + c) / 3;
+
+        console.log(average);
+      }
+
+      Average();
+
+      // with Arguments
+
+      function Calculation(a, b, c) {
+        let average1 = (a + b + c) / 3;
+        console.log(average1);
+      }
+
+      Calculation(2, 5, 6);
+    </script>
+  </body>
+</html>
